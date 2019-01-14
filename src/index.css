@@ -1,0 +1,73 @@
+body {
+  padding: 50px;
+  background-color: #81d4fa;
+  font-family: sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.EmpList .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  width: 165px;
+}
+
+.EmpList .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #1976d2;
+  color: #FFF;
+  border: 2px solid #1976d2;
+}
+
+.EmpList .header button:hover {
+  background-color: #004ba0;
+  border: 2px solid #004ba0;
+  cursor: pointer;
+}
+
+.EmpList .theList {
+  list-style: none;
+  color: red;
+  padding-left: 0;
+  width: 250px;
+}
+
+.EmpList .theList li {
+  color: #333;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+ul.theList {
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+
+.theList li {
+  color: #333;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: background-color .2s ease-out;
+}
+
+.EmpList .theList li:hover {
+  background-color: pink;
+  cursor: pointer;
+}
